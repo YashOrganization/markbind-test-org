@@ -8,10 +8,8 @@ init:
 install:
   ps: Install-Product node $env:nodejs_version
   # install modules
-  - npm install
+  ps: npm install
 
 test_script:
-  - node --version
-  - npm test
-
-
+  ps: node --version
+  ps: npm test
