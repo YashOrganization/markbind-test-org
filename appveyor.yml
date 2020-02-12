@@ -2,16 +2,14 @@
 environment:
   nodejs_version: "8"
 
-init:
-  - git config --global core.autocrlf true
-
 install:
   - ps: Install-Product node $env:nodejs_version
   # install modules
-  - npm install
+  - npm ci
 
 test_script:
   - node --version
   - npm test
 
 build: off
+
