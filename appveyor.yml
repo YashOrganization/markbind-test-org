@@ -6,10 +6,10 @@ init:
   - git config --global core.autocrlf true
 
 install:
-  ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node $env:nodejs_version
   # install modules
-  ps: npm install
+  - npm install
 
 test_script:
-  ps: node --version
-  ps: npm test
+  - node --version
+  - npm test
