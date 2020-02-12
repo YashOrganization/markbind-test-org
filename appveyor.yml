@@ -9,7 +9,9 @@ install:
 
 test_script:
   - node --version
-  - npm test
+  - npm --version
+  - nvm --version
+  - npm testwin
 
 build: off
 
