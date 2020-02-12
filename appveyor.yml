@@ -2,11 +2,14 @@
 environment:
   nodejs_version: "8"
 
+# Install scripts
 install:
+  # Install nodejs version
   - ps: Install-Product node $env:nodejs_version
-  # install modules
+  # Install modules
   - npm ci
 
+# Post-install test scripts
 test_script:
   - node --version
   - npm --version
