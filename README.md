@@ -1,6 +1,8 @@
 <img src="docs/images/logo-lightbackground.png" width="600" />
 
 [![Build Status](https://travis-ci.org/MarkBind/markbind.svg?branch=master)](https://travis-ci.org/MarkBind/markbind)
+[![Build status](https://ci.appveyor.com/api/projects/status/3380t8xw6nbg921b/branch/master?svg=true)](https://ci.appveyor.com/project/yash-chowdhary/markbind-test-org/branch/master)
+
 
 **A tool for generating static websites from markdown-like syntax**. Optimized for content-heavy instructional websites websites e.g., course websites, tutorials, project/product doucumentation, textbooks.
 
